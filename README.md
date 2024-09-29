@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
+* [`setBackgroundColor(...)`](#setbackgroundcolor)
 
 </docgen-index>
 
@@ -31,6 +32,21 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 | **`options`** | <code>{ value: string; }</code> |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### setBackgroundColor(...)
+
+```typescript
+setBackgroundColor(color: string) => Promise<boolean>
+```
+
+| Param       | Type                |
+| ----------- | ------------------- |
+| **`color`** | <code>string</code> |
+
+**Returns:** <code>Promise&lt;boolean&gt;</code>
 
 --------------------
 
